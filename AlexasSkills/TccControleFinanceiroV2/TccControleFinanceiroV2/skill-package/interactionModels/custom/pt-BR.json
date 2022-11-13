@@ -1,0 +1,115 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "abrir controle financeiro",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MediaDespesaIntent",
+          "samples": [
+            "Qual minha media de despesa",
+            "Qual a media de despesa",
+            "Me diga minha media de despesas",
+            "Me diga qual a media de despesa",
+            "media de despesa",
+            "Minha media de despesas",
+            "Media de despesas"
+          ]
+        },
+        {
+          "name": "MediaReceitaIntent",
+          "samples": [
+            "Qual minha media de receita",
+            "Qual a media de receita",
+            "Me diga minha media de Receitas",
+            "Me diga qual a media de receita",
+            "media de receita",
+            "Minha media de Receitas",
+            "Media de Receitas"
+          ]
+        },
+        {
+          "name": "TotalDespesaIntent",
+          "samples": [
+            "Qual meu Total de despesa",
+            "Qual a Total de despesa",
+            "Me diga meu Total de despesas",
+            "Me diga qual a Total de despesa",
+            "Total de despesa",
+            "Meu Total de despesas",
+            "Total de despesas"
+          ]
+        },
+        {
+          "name": "TotalReceitaIntent",
+          "samples": [
+            "Qual minha Total de receita",
+            "Qual a Total de receita",
+            "Me diga minha Total de receita",
+            "Me diga qual a Total de receita",
+            "Total de receita",
+            "Meu Total de receita",
+            "Total de receita"
+          ]
+        },
+        {
+          "name": "DespesaIntent",
+          "slots": [
+            {
+              "name": "valor",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "adicionar despesa de {valor}",
+            "adicionar uma despesa de {valor} reais",
+            "adicionar uma despesa no valor de {valor}",
+            "adicionar despesa no valor de {valor}",
+            "adicionar despesa de {valor}",
+            "adicionar uma despesa de {valor}",
+            "adicionar despesa de {valor} reais",
+            "Quero adicionar Despesas no valor {valor}",
+            "Adicionar despesas {valor}"
+          ]
+        },
+        {
+          "name": "ReceitaIntent",
+          "slots": [
+            {
+              "name": "valor",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "adicionar receita de {valor}",
+            "adicionar uma receita de {valor} reais",
+            "adicionar uma receita de {valor}",
+            "adicionar receita no valor de {valor}",
+            "adicionar receita de {valor}",
+            "adicionar uma receita de {valor}",
+            "adicionar receita de {valor} reais",
+            "Quero adicionar receitas no valor {valor}",
+            "Adicionar receitas {valor}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
